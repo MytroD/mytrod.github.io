@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
 
     {% include header.html %}
 
@@ -12,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
@@ -38,11 +37,9 @@
       {{ content }}
     </div>
 
-    {% include footer.html %}
     {% include analytics.html %}
-	  
-</body>
-</html>
+    {% include footer.html %}
+
 
 
 
