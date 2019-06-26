@@ -4,12 +4,82 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+	<section id="intro">
+		<div class="intro-container">
+			<div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+					<ol class="carousel-indicators"></ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active">
+								<div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>DMYTRO DOIANOV</h2>
+									<p>AM I</p>
+									<a href="#about" class="btn-get-started scrollto">Become acquainted</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>ATTENTION CONTROLS REALITY</h2>
+									<p>IS MY MOTTO</p>
+									<a href="#about" class="btn-get-started scrollto">Become acquainted</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>MY THOUGHTS</h2>
+									<p> IN </p>
+									<a href="https://twitter.com/dmytrodoianov" class="btn-get-started scrollto">TWITTER</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>Nam vendorero tempore</h2>
+									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+									<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>Magnam aliquam quaerat</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					<a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+
+					<a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+
+			</div>
+		</div>
+	</section><!-- #intro -->
