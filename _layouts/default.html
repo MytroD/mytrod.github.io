@@ -1,38 +1,6 @@
-
-
-    {% include header.html %}
-
-	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-  </head>
-
-  <body>
-  
-		<div class="container-fluid">
-			<div id="logo" class="pull-left">
-			
-			<h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-			<!-- Uncomment below if you prefer to use an image logo -->
-			<!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-			</div>
-			<nav id="nav-menu-container">
-			    <ul class="nav-menu">
-					<li class="menu-active"><a href="#intro">Home</a></li>
-					<li><a href="#about">About Me</a></li>
-					<li><a href="#services">Facts</a></li>
-					<li><a href="#portfolio">Blog</a></li>
-					<li><a href="#team">Articles</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-				
-			</nav><!-- #nav-menu-container -->
-		</div>
-	</header><!-- #header -->
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    {% include analytics.html %}
-    {% include footer.html %}
+---
+theme :
+  name : Grads
+---
+{% include JB/setup %}
+{% include themes/bootstrap/default.html %}
