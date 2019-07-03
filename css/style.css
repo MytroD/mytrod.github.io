@@ -126,12 +126,11 @@ h6 {
 
 #header {
   padding: 20px 0;
-  height: 92px;
+  height: 72px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  transition: no;
   z-index: 997;
   background: rgba(0, 0, 0, 0.9);
 }
@@ -140,7 +139,6 @@ h6 {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
   height: 72px;
-  transition: no;
 }
 
 #header #logo {
