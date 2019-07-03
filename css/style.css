@@ -135,12 +135,6 @@ h6 {
   background: rgba(0, 0, 0, 0.9);
 }
 
-#header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 20px 0;
-  height: 72px;
-}
-
 #header #logo {
   float: left;
 }
