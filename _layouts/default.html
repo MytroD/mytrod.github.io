@@ -30,9 +30,8 @@
 
 <body>
 	
-      {{ content }}
+	{{ content }}
 
-<!--	Footer	-->
 	<footer>
 		<nav class="navbar-fixed-bottom"> 
 			<div class="container">
@@ -42,12 +41,10 @@
 			</div>
 		</nav>
 	</footer>
-<!--	/footer		-->
-
   
-  					<!--<span><a href="https://www.facebook.com/doianov"><i class="fa fa-facebook fa-lg"></i></a></span>  deleted  -->
+	<!--<span><a href="https://www.facebook.com/doianov"><i class="fa fa-facebook fa-lg"></i></a></span>  deleted  -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
@@ -68,25 +65,8 @@
 
   <!-- Template Main Javascript File -->
   <script src="{{ site.baseurl }}/js/main.js"></script>
-  
+
+  {% include analytics.html %}  
+
 </body>
 </html>
-
-
-<!--  <body>
-   <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
-</html>
---> 

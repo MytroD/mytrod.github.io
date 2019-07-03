@@ -18,7 +18,7 @@ title: My thoughts on twitter
 					<li><a href="/facts/">Facts</a></li>
 					<li class="menu-active"><a href="/blog/">Blog</a></li>
 					<li><a href="/articles/">Articles</a></li>
-					<li><a href="/contact/">Contact</a></li>
+					<li><a href="/contacts/">Contacts</a></li>
 				</ul>
 				
 			</nav><!-- #nav-menu-container -->
@@ -27,17 +27,8 @@ title: My thoughts on twitter
 	
 <main>	
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<a class="twitter-timeline" href="https://twitter.com/DDoianov?ref_src=twsrc%5Etfw">Tweets by DDoianov</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
 </div>
 </main>	
