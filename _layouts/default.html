@@ -1,21 +1,330 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="6y0-ZgEW2R4K9b3NN9CNVlMyy1Vj7LarHFdSKU7mfqs" />
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Dmytro Doianov">
+	
+	    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+		<link href="_img/favicon.png" rel="icon">
+		<link href="_img/apple-touch-icon.png" rel="apple-touch-icon">
+    	
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" rel="stylesheet" >
+    <link href="_vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="_vendor/languages/languages.min.css" rel="stylesheet">
+	<link href="_vendor/animate/animate.min.css" rel="stylesheet">
+	<link href="_vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="_vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="_vendor/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<link href="_css/style.css" rel="stylesheet" type="text/css">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+	    
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->  
+		<!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
 
-    {% include meta.html %}
+<body>
+	<header id="header">
+		<div class="container-fluid">
+			<div id="logo" class="pull-left">
+			<h1><a href="#intro" class="scrollto">Dmytro Doianov</a></h1>
+			<!-- Uncomment below if you prefer to use an image logo -->
+			<!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+			</div>
+			<nav id="nav-menu-container">
+			    <ul class="nav-menu">
+					<li class="menu-active"><a href="#intro">Home</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#services">Facts</a></li>
+					<li><a href="#portfolio">Blog</a></li>
+					<li><a href="#team">Articles</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				
+			</nav><!-- #nav-menu-container -->
+		</div>
+	</header><!-- #header -->
+	
+	
+	<section id="intro">
+		<div class="intro-container">
+			<div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+					<ol class="carousel-indicators"></ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active">
+								<div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>DMYTRO DOIANOV</h2>
+									<p>AM I</p>
+									<a href="#about" class="btn-get-started scrollto">Become acquainted</a>
+									</div>
+								</div>
+							</div>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>ATTENTION CONTROLS REALITY</h2>
+									<p>IS MY MOTTO</p>
+									<a href="#about" class="btn-get-started scrollto">Become acquainted</a>
+									</div>
+								</div>
+							</div>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>MY THOUGHTS</h2>
+									<p> IN </p>
+									<a href="https://twitter.com/dmytrodoianov" class="btn-get-started scrollto">TWITTER</a>
+									</div>
+								</div>
+							</div>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>Nam _vendorero tempore</h2>
+									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+									<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+									</div>
+								</div>
+							</div>
 
-  <body>
+							<div class="carousel-item">
+								<div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+								<div class="carousel-container">
+									<div class="carousel-content">
+									<h2>Magnam aliquam quaerat</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					<a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+
+					<a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+
+			</div>
+		</div>
+	</section><!-- #intro -->
+<main>
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="far fa-calendar-check"></i>
+            <h4 class="title"><a href="">Put a request for a meeting</a></h4>
+            <p class="description">directly to my calendar - just sugjest a date and time via your google calendar</p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="far fa-address-card"></i>
+            <h4 class="title"><a href="">CV</a></h4>
+            <p class="description">From this link you can download my CV</p>
+          </div>
+
+          <div class="col-lg-4 box">
+			<i class="fas fa-share-alt"></i>
+            <h4 class="title"><a href="">Share my contacts with your friends</a></h4>
+            <p class="description">and we will create an amazing things together :)</p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #featured-services -->
+
+    <section id="about">
+		<div class="container">
+			<header class="section-header">
+				<h3>A LITTLE ABOUT ME</h3>
+			</header>
+			
+			<div class="row about-cols">
+                <div class="col-md-6 wow fadeInUp">
+					<div class="about-col">
+						<h2 class="title"><a href="#">Let me introduce myself</a></h2>
+						<p>I am an expert of the development testing living in Odesa, Ukraine. A master's degree in "Informatics control systems and technologies" confirms my knowledge and skills. I also do not miss opportunities to improve my skills and share knowledge with colleagues at relevant events. A wide range of knowledge in the field of information technology allows me to perform any tasks that are limited in time and require extraordinary thinking. </p>
+						
+						<h2 class="title"><a href="#">Mission</a></h2>
+						<p>My mission is development and support of socially significant projects.</p>
+					  
+						<h2 class="title"><a href="#">Vission</a></h2>
+						<p>My vision for successful cooperation is that during the joint work, both sides are equally able to realize their goals and objectives. Without reservations.</p>
+						
+								  
+						<h2 class="title"><a href="#">Position</a></h2>
+						<p>	I work only under the contract. We will sign some agreement later - is not an option</p>
+						<p>	My main value is trust. I appreciate my reputation, deserved thanks to many years of honest and responsible work. I tolerate other opinions and cultures. To achieve a common goal, working in a team, if necessary, put your own interests in the background.</p>	
+						<p> I don't work with companies that produce and / or distribute alcohol and tobacco products</p>
+						<p> I don't work with companies and people which support terrorism and / or incite interethnic hatred.
+					
+					</div>
+				</div>
+				
+				<div class="col-md-6 wow fadeInUp">
+					<div class="about-col">
+						<div class="img"><img src="img/1.png" alt="" class="img-fluid"></div>
+					</div>
+				</div>
+				
+			</div>
+			
+	</section><!-- /about -->
+
+    <section id="facts"  class="wow fadeIn">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Facts</h3>
+          <p>There is always time for arts and crafts, cat videos and the occasional Popsicle break and of course for a beer with friends</p>
+        </header>
+
+        <div class="row counters">
+  		    <div class="col-lg-4 col-6 text-center">
+				<span data-toggle="counter-up">39</span>
+				<p>Projects</p>
+  			</div>
+			<div class="col-lg-4 col-6 text-center">
+				<span data-toggle="counter-up">22018</span>
+				<p>Hours Of hard work</p>
+			</div>
+			<div class="col-lg-4 col-6 text-center">
+				<span data-toggle="counter-up">2833</span>
+				<p>Cup of cofee</p>
+			</div>
+  		</div>
+        <div class="facts-img">
+          <img src="img/facts-img.jpg" alt="" class="img-fluid">
+        </div>
+
+      </div>
+    </section><!-- #facts -->
+
+
+	
+	
+<!--	Contact	 -->
+	<section id="contact" class="section-bg wow fadeInUp">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 mb-4">
+					<h3>Contact Details</h3>
+					<p><span>Location:&#8195;</span>Odesa, Ukraine, 65014, Greck street</p>
+					<p><span>Socials:&#8195;</span>
+					<a href="https://www.twitter.com/dmytro.doianov"><i class="fab fa-twitter fa-lg"></i>&#8195;Twitter&#8195;&#8195;</a>
+					<a href="https://www.instagram.com/dmytrodoianov/"><i class="fab fa-instagram fa-lg"></i>&#8195;Instagram&#8195;&#8195;</a>
+					<a href="https://linkedin.com/in/doianov"><i class="fab fa-linkedin fa-lg"></i>&#8195;Linkedin&#8195;&#8195;</a>
+					</p>
+					<!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+					<p>
+						<a>Email</a>:
+						<a href="mailto:d@doianov.me">d@doianov.me </a>
+					</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21977.501178212577!2d30.728813754200896!3d46.48459667231233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63198508ebbb9%3A0xe4aaf554bd54047e!2z0LLRg9C70LjRhtGPINCT0YDQtdGG0YzQutCwLCDQntC00LXRgdCwLCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1suk!2sua!4v1548837224495" width="500" height="385" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-6 mb-4">
+					<h3>Send us a Message</h3>
+						<form name="sentMessage" id="contactForm" novalidate>
+							<div class="control-group form-group">
+								<div class="controls">
+									<label>Full Name:</label>
+									<input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+									<p class="help-block"></p>
+								</div>
+							</div>
+							<div class="control-group form-group">
+								<div class="controls">
+									<label>Phone Number:</label>
+									<input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+								</div>
+							</div>
+							<div class="control-group form-group">
+								<div class="controls">
+									<label>Email Address:</label>
+									<input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+								</div>
+							</div>
+							<div class="control-group form-group">
+								<div class="controls">
+									<label>Message:</label>
+									<textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+								</div>
+							</div>
+							<div id="success"></div>
+								<!-- For success/fail messages -->
+								<button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+						</form>
+				</div>
+			</div>
+		</div>
+	</section> <!--/contact -->
+</main>
+
+<!--	Footer	-->
+	<footer>
+		<nav class="navbar-fixed-bottom"> 
+			<div class="container">
+				<div class="navbar-left">
+					<p>&copy; 2017 <script>new Date().getFullYear()>2017&&document.write("- "+new Date().getFullYear());</script><a href="#"> MytroArts</a></p>
+				</div>
+			</div>
+		</nav>
+	</footer>
+<!--	/footer		-->
+
+  
+  					<!--<span><a href="https://www.facebook.com/doianov"><i class="fa fa-facebook fa-lg"></i></a></span>  deleted  -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript _vendorraries -->
+  <script src="_vendor/jquery/jquery.min.js"></script>
+  <script src="_vendor/jquery/jquery-migrate.min.js"></script>
+  <script src="_vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="_vendor/easing/easing.min.js"></script>
+  <script src="_vendor/superfish/hoverIntent.js"></script>
+  <script src="_vendor/superfish/superfish.min.js"></script>
+  <script src="_vendor/wow/wow.min.js"></script>
+  <script src="_vendor/waypoints/waypoints.min.js"></script>
+  <script src="_vendor/counterup/counterup.min.js"></script>
+  <script src="_vendor/owlcarousel/owl.carousel.min.js"></script>
+  <script src="_vendor/isotope/isotope.pkgd.min.js"></script>
+  <script src="_vendor/lightbox/js/lightbox.min.js"></script>
+  <script src="_vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
+
+
+<!--  <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -49,3 +358,4 @@
     {% include analytics.html %}
   </body>
 </html>
+--> 
