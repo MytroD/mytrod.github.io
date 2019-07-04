@@ -30,17 +30,17 @@ title: My Articles
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-9">
-          <div class="blog-block post-content-area">
-            <img src="{{ BASE_PATH }}/assets/images/blog/img2.jpg">
+          <div class="post">
+            {% for post in site.posts %}
+			
+			<img src="{{ BASE_PATH }}/assets/images/blog/img2.jpg">
             <div class="blog-post">
-			  {% for post in site.posts %}
-              
+			           
 			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 			  <p>{{ post.excerpt }}</p>
               <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-common">Read More</a>
-			 
-			  {% endfor %}
-            </div>
+			  </div>
+			 {% endfor %}
           </div>
        
 
