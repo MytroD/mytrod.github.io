@@ -26,23 +26,6 @@ title: My Articles
 		</div>
 	</header><!-- #header -->
 
-<main>	
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
-</main>	
-
 <section class="blog">
     <div class="container">
       <div class="row">
@@ -50,37 +33,16 @@ title: My Articles
           <div class="blog-block post-content-area">
             <img src="{{ BASE_PATH }}/assets/images/blog/img2.jpg">
             <div class="blog-post">
-              <h3><a href="#">Post Title</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequatur odit aliquam iure. Porro eligendi laborum harum, quidem in, quibusdam eius, consequuntur fugiat molestias vitae nesciunt quis iusto hic. Repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sint.</p>
-              <a href="#" class="btn btn-common">Read More</a>
+			  {% for post in site.posts %}
+              
+			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+			  <p>{{ post.excerpt }}</p>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-common">Read More</a>
+			 
+			  {% endfor %}
             </div>
           </div>
-
-          <div class="mb-60"></div>
-
-          <div class="blog-block post-content-area text-center">
-            <img src="{{ BASE_PATH }}/assets/images/blog/img2.jpg">
-            <div class="blog-post">
-              <h3><a href="#">Post Title</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequatur odit aliquam iure. Porro eligendi laborum harum, quidem in, quibusdam eius, consequuntur fugiat molestias vitae nesciunt quis iusto hic. Repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sint.</p>
-              <a href="#" class="btn btn-common">Read More</a>
-            </div>
-          </div>
-
-          <div class="mb-60"></div>
-
-          <div class="blog-block post-content-area">
-            <img src="{{ BASE_PATH }}/assets/images/blog/img2.jpg">
-            <div class="blog-post">
-              <h3><a href="#">Post Title</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequatur odit aliquam iure. Porro eligendi laborum harum, quidem in, quibusdam eius, consequuntur fugiat molestias vitae nesciunt quis iusto hic. Repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sint.</p>
-              <a href="#" class="btn btn-common">Read More</a>
-            </div>
-          </div>
-
-          <div class="mb-60"></div>
-
-        </div>
+       
 
         <!-- Blog sidebar area -->
         <div class="col-sm-12 col-md-3">
