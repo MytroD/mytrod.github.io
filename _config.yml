@@ -17,19 +17,19 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble: ddoianov
+  dribbble: 
   email: d@doianov.me
-  facebook: ddoianov
-  flickr: ddoianov
-  github: ddoianov
+  facebook: 
+  flickr: 
+  github: 
   instagram: ddoianov
   linkedin: ddoianov
-  pinterest: ddoianov
-  rss: ddoianov # just type anything here for a working RSS icon
+  pinterest: 
+  rss: # just type anything here for a working RSS icon
   twitter: ddoianov
-  stackoverflow: ddoianov# your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: ddoianov   # channel/<your_long_string> or user/<user-name>
-  googleplus: ddoianov# anything in your profile username that comes after plus.google.com/
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
