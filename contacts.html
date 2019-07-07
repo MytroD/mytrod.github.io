@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get into contact with me
+title: Get in touch
 ---
 
 	<header id="header">
@@ -13,7 +13,8 @@ title: Get into contact with me
 			</div>
 			
 			<nav id="nav-menu-container">
-			    <ul class="nav-menu">
+			    
+				<ul class="nav-menu">
 					<li><a href="https://doianov.me/">Main</a></li>
 					<li><a href="/about/">About Me</a></li>
 					<li><a href="/facts/">Facts</a></li>
@@ -53,21 +54,21 @@ title: Get into contact with me
 							<div class="control-group form-group">
 								<div class="controls">
 									<i class="contact-icon fa fa-user"></i><label for="full-name">Your Name</label>
-									<input type="text" class="form-control" id="name" placeholder="How can I call you?" required data-error="Please enter your name">
+									<input type="text" class="form-control" name="name" placeholder="How can I call you?" required data-error="Please enter your name">
 									<p class="help-block with-errors"></p>
 								</div>
 							</div>
 							<div class="control-group form-group">
 								<div class="controls">
 									<i class="contact-icon fas fa-phone"></i><label>Phone Number: (optional)</label>
-									<input type="tel" class="form-control" id="phone" placeholder="+38 012-34-56-789">
+									<input type="tel" class="form-control" name="phone" placeholder="+38 012-34-56-789">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 							<div class="control-group form-group">
 								<div class="controls">
 									<i class="contact-icon fas fa-envelope"></i><label>Email Address</label>
-									<input type="email" class="form-control" id="email" placeholder="email@yourdomain.ltd" required data-error="Please enter your email">
+									<input type="email" class="form-control" name="email" placeholder="email@yourdomain.ltd" required data-error="Please enter your email">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -76,10 +77,10 @@ title: Get into contact with me
 								<div class="controls">
 									<i class="far fa-comment-alt"></i><label>Message:</label>
 									<textarea rows="10" cols="100" class="form-control" id="message" placeholder="Message" required data-error="Please enter your message" maxlength="999" style="resize:none"></textarea>
-									<input type="hidden" name="_subject" id="email-subject" value="Message Form doianov.me">
+									<input type="hidden" name="_subject" value="Message Form doianov.me">
 								</div>
 							</div>
-								<button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+								<button type="submit" class="btn btn-primary" value="Send" id="sendMessageButton">Send Message</button>
 								<!-- For success/fail messages -->							
 							<div id="success"></div>
 						</form>
