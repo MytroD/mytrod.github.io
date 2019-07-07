@@ -59,36 +59,29 @@ title: Get into contact with me
 							</div>
 							<div class="control-group form-group">
 								<div class="controls">
-									<label>Phone Number:</label>
+									<i class="contact-icon fas fa-phone"></i><label>Phone Number: (optional)</label>
 									<input type="tel" class="form-control" id="phone">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 							<div class="control-group form-group">
 								<div class="controls">
-									<i class="contact-icon fa fa-envelope-o"></i><label>Email Address:</label>
-									<input type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+									<i class="contact-icon fa fa-envelope-o"></i><label>Email Address</label>
+									<input type="email" class="form-control" id="email" placeholder="email@yourdomain.ltd" required data-error="Please enter your email">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
-
-			                <div class="col-sm-4">
-								  <div class="form-group">
-									<i class="contact-icon fa fa-pencil-square-o"></i>
-									<input type="text" class="form-control" id="subject" placeholder="Subject" required data-error="Please enter your Subject">
-									<div class="help-block with-errors"></div>
-								  </div>
-								</div>
-
+			                
 							<div class="control-group form-group">
 								<div class="controls">
 									<label>Message:</label>
 									<textarea id="message" rows="8" placeholder="Message" required data-error="Please enter your massage" maxlength="999"></textarea>
+									<input type="hidden" name="_subject" id="email-subject" value="Message Form doianov.me">
 								</div>
 							</div>
-							<div id="success"></div>
-								<!-- For success/fail messages -->
 								<button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+								<!-- For success/fail messages -->							
+							<div id="success"></div>
 						</form>
 				</div>
 				</div>
