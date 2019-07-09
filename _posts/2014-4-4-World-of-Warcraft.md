@@ -1,6 +1,6 @@
 ---
 layout: post
-title: World of Warcraft
+title: World warcraft
 ---
 
 
