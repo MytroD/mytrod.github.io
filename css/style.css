@@ -479,6 +479,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 17px;
 }
 
+.section-header h3:hover {
+  color: #18d26e;
+}
+
 .section-header h3::before {
   content: '';
   position: absolute;
@@ -506,7 +510,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 9px;
   color: #333;
 }
-.section-header p:hover {
+
+.section-header a: {
+  color: #000; 
+}
+
+.section-header a:hover {
   color: #18d26e;
 }
 
