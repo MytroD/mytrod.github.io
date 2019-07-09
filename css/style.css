@@ -506,7 +506,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 9px;
   color: #333;
 }
-
+.section-header p:hover {
+  color: #18d26e;
+}
 
 /* Section with background */
 
