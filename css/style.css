@@ -534,7 +534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.78); /* less than 0.78 -> more visible bg */
   z-index: 9;
 }
 
