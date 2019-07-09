@@ -478,8 +478,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 9px;
   padding-top: 17px;
 }
-
-.section-header h3:hover {
+  
+.section-header h3 a:hover {
   color: #18d26e;
 }
 
@@ -509,14 +509,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding-bottom: 9px;
   color: #333;
-}
-
-.section-header a: {
-  color: #000; 
-}
-
-.section-header a:hover {
-  color: #18d26e;
 }
 
 /* Section with background */
