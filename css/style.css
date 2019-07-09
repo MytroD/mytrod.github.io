@@ -479,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 17px;
 }
   
-.section-header h3 a:hover {
+.section-header h3:hover {
   color: #18d26e;
 }
 
