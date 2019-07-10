@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 0px 0 0 0;
   position: relative;
 }
 
@@ -643,6 +643,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts .container {
   position: relative;
   z-index: 10;
+}
+
+#facts .facts-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
 }
 
 #facts .counters span {
