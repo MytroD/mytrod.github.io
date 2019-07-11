@@ -805,14 +805,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
  } 
 
-#blog .sidebar-widget .img {
-  position: relative;
-}
-
-#blog .sidebar-widget .img img {
-  border-radius: 4px 4px 0 0;
-}
-
 #blog .sidebar-widget .icon {
   width: 64px;
   height: 64px;
@@ -828,7 +820,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#blog .blog-col i {
+#articles .sidebar-widget i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
