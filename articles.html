@@ -39,13 +39,12 @@ title: Articles by
 		<div class="container-fluid col-sm-12 col-md-9 col-lg-9"> 
 			<div class="articles">
 			{% for post in site.posts %}
-				<div class="blog-post">
+				<div class="articles-col">
 					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 						<img src="{{ site.baseurl }}/img/images-posts/{{ post.title }}.png">			
 					<p>{{ post.excerpt }}</p>
 					<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-common">Read More</a>
 				</div>
-			<div class="mb-60"></div>
 			{% endfor %}
 			</div>
 		</div>	   
