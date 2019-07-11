@@ -29,11 +29,13 @@ title: Articles by
 	</header><!-- #header -->
 
 <section id="articles">
-    	<header class="section-header">
+	<div class="container">    
+		<header class="section-header">
 			<h3><a>Articles</a></h3>
 		</header
+	</div>
 	
-	<div class="container">
+	<div class="container">    
 		<div class="row">
 			<div class="col-sm-12 col-md-9">
 			{% for post in site.posts %}
@@ -45,8 +47,11 @@ title: Articles by
 				</div>
 			{% endfor %}
 			</div>
-		   
+		</div>	   
+	</div>
+	
 <!-- Blog sidebar area -->
+		<div class="container">    
 			<div class="col-sm-12 col-md-3">
                 <div class="sidebar-widget pull-right">
 					<div class="twit-box">
@@ -90,6 +95,5 @@ title: Articles by
 				<div class="mb-60"></div>
 			</div>
         </div>
-    </div>
-</section>
+ </section>
 
