@@ -792,7 +792,7 @@ body.mobile-nav-active #mobile-nav-toggle {
  } 
 
 #articles .sidebar-widget .icon {
- width: 64px;
+  width: 64px;
   height: 64px;
   padding-top: 8px;
   text-align: right;
