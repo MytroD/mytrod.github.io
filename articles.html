@@ -29,77 +29,67 @@ title: Articles by
 	</header><!-- #header -->
 
 <section id="articles">
-    <div class="container">
-		<header class="section-header">
+    	<header class="section-header">
 			<h3><a>Articles</a></h3>
 		</header
 	
-      <div class="row pb-5 pt-5">
-        <div class="col-sm-12 col-md-9">
-          {% for post in site.posts %}
-           		
-            <div class="blog-post">
-			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-			  <img src="{{ site.baseurl }}/img/images-posts/{{ post.title }}.png">			
-			  <p>{{ post.excerpt }}</p>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-common">Read More</a>
-			  </div>
-			 
-			 <div class="mb-60"><br></br></div>
-			 {% endfor %}
-          </div>
-       
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-9">
+			{% for post in site.posts %}
+				<div class="blog-post">
+					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+						<img src="{{ site.baseurl }}/img/images-posts/{{ post.title }}.png">			
+					<p>{{ post.excerpt }}</p>
+					<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-common">Read More</a>
+				</div>
+			{% endfor %}
+			</div>
+		   
+<!-- Blog sidebar area -->
+			<div class="col-sm-12 col-md-3">
+                <div class="sidebar-widget pull-right">
+					<div class="twit-box">
+						<div class="media mb-3"> <img class="align-self-start mr-3 rounded-circle" src="{{ BASE_PATH }}/img/author.png" alt="">
+							<div class="media-body">
+								<h5 class="mb-0 mt-3">Dmytro Doianov</h5>
+								<p>@DDoianov</p>
+							</div>
+						</div>
+						<p class="text-justify"> “ PhD Student “ </p>
+						<div class="clearfix"> <a href="https://twitter.com/DDoianov?ref_src=twsrc%5Etfw" class="btn btn-primary mt-2 float-right">Follow</a></div>
+					</div>
+				</div>
+				<div class="mb-60"></div>
+				
+				<div class="blog-block categories-sidebar-widget">
+					<h4>Categories</h4>
+					<div class="post-category">
+					<a href="#">Computer Science <span class="pull-right">(3)</span></a>
+				</div>
 
-        <!-- Blog sidebar area -->
-        <div class="col-sm-12 col-md-3">
-          
-		  <div class="blog-block about-sidebar-widget">
-          <div class="twit-box">
-            <div class="media mb-3"> <img class="align-self-start mr-3 rounded-circle" src="{{ BASE_PATH }}/img/Blog/author.png" alt="">
-              <div class="media-body">
-                <h5 class="mb-0 mt-3">Dmytro Doianov</h5>
-                <p>@DDoianov</p>
-              </div>
-            </div>
-            <p class="text-justify"> “ PhD Student “ </p>
-            <div class="clearfix"> <a href="https://twitter.com/DDoianov?ref_src=twsrc%5Etfw" class="btn btn-primary mt-2 float-right">Follow</a> </div>
-          </div>
+				<div class="post-category">
+					<a href="#">Science about Earth<span class="pull-right">(1)</span></a>
+				</div>
+
+				<!-- <div class="post-category">
+				  <a href="#">Path of the master<span class="pull-right">(2)</span></a>
+				</div>
+				-->
+
+				<!--<div class="post-category">
+				  <a href="#">Motivation <span class="pull-right">(5)</span></a>
+				</div>
+				-->
+				
+				<!--<div class="post-category">
+				  <a href="#">Ununnounced Project <span class="pull-right">(3)</span></a>
+				</div>
+				-->
+				</div>
+				<div class="mb-60"></div>
+			</div>
         </div>
-
-          <div class="mb-60"></div>
-
-          <div class="blog-block categories-sidebar-widget">
-            <h4>Categories</h4>
-            <div class="post-category">
-              <a href="#">Computer Science <span class="pull-right">(3)</span></a>
-            </div>
-
-            <div class="post-category">
-              <a href="#">Science about Earth<span class="pull-right">(1)</span></a>
-            </div>
-
-            <!-- <div class="post-category">
-              <a href="#">Path of the master<span class="pull-right">(2)</span></a>
-            </div>
-			-->
-
-            <!--<div class="post-category">
-              <a href="#">Motivation <span class="pull-right">(5)</span></a>
-            </div>
-			-->
-			
-            <!--<div class="post-category">
-              <a href="#">Ununnounced Project <span class="pull-right">(3)</span></a>
-            </div>
-			-->
-			
-          </div>
-
-          <div class="mb-60"></div>
-
-          
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
