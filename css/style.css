@@ -778,7 +778,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Blog section */
 
 #blog .sidebar-widget {
-  background: fab fa-twitter;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
@@ -787,23 +786,24 @@ body.mobile-nav-active #mobile-nav-toggle {
  }
 
 #articles .sidebar-widget {
-  background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
-  width: 300px;
-  max-width: 300px;
+  width: 370px;
+  max-width: 370px;
  }
+ 
+ 
 
-#blog .blog-col .img {
+#blog .sidebar-widget .img {
   position: relative;
 }
 
-#blog .blog-col .img img {
+#blog .sidebar-widget .img img {
   border-radius: 4px 4px 0 0;
 }
 
-#blog .blog-col .icon {
+#blog .sidebar-widget .icon {
   width: 64px;
   height: 64px;
   padding-top: 8px;
