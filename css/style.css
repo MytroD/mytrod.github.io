@@ -706,7 +706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   width: 600px;
   max-width: 600px;
-  text-align: center;
+  text-align: float-right;
 }
 
 #blog .blog-col .img {
