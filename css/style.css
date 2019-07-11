@@ -783,7 +783,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
 }
 
+/*little-profile*/
+.little-profile .pro-img {
+  margin-top: -80px;
+  margin-bottom: 20px; }
+  .little-profile .pro-img img {
+    width: 128px;
+    height: 128px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 100%; }
 
+.contact-box {
+  position: relative; }
+  .contact-box .add-ct-btn {
+    position: absolute;
+    right: 4px;
+    top: -46px; }
+  .contact-box .contact-widget > a {
+    padding: 15px 10px; }
+    .contact-box .contact-widget > a .user-img {
+      margin-bottom: 0px !important; }
+
+/*
   
   
 
