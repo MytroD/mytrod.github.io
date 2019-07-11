@@ -676,6 +676,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Blog section */
 
+.blog {
+  position: fixed;
+  max-width: 440px;
+  text-align: center;
+}
+
 #blog {
   background: url("../img/bg/blog-bg.jpg") center top no-repeat fixed;
   background-size: cover;
