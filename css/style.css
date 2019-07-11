@@ -792,7 +792,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 3px;
   width: 280px;
   max-width: 280px;
- } 
+ }
+ 
+ #articles .sidebar-widget-top {
+  background: url("../img/bg/blog-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 1rem 1rem 1rem 1rem;
+  position: relative;
+ }
 
  #articles .sidebar-widget i {
   font-size: 36px;
@@ -802,6 +809,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
+#articles .sidebar-widget media {
+  padding-top: 9px;
+  margin-bottom: 9 px;
+  left: calc( 50% - 32px);
+  position: absolute;
+}
 #articles .sidebar-widget:hover i {
   color: #fff;
 }
