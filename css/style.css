@@ -1397,14 +1397,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-#404 {
+#page {
   background: url("../img/bg/404.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
 }
 
-#404::before {
+#page::before {
   content: '';
   position: absolute;
   left: 0;
