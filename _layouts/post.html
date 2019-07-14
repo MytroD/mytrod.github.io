@@ -26,20 +26,54 @@ layout: default
 			</nav>
 		</div>
 	</header>
+
+
+<section id="article">
+	<div class="container">    
+		<div class="row">
+			<div class="col">
+				<div class="w-50 p-10 mx-auto">
+					<h1>{{ page.title }}</h1>
+					
+						{{ content }}
+					
+				</div>
+				<div class="date">
+					Written on {{ page.date | date: "%B %e, %Y" }}
+				</div>
+			</div>
+
+			<div class="article-col-sidebar"><!-- Blog sidebar area -->
+			    <div class="card">
+                    <img class="card-img-top" src="{{ BASE_PATH }}/img/bg/profile-bg.jpg" alt="Card image cap">
+                        <div class="card-block little-profile text-center">
+                            <div class="pro-img"><img src="{{ BASE_PATH }}/img/img-author.jpg" alt="user" /></div>
+                                <h3 class="m-b-0">Dmytro Doianov</h3>
+                                <p><i class="fas fa-map-marker-alt pr-1"></i>Odesa, Ukraine</p>
+								<h4>PhD Student</h4>
+								<a style="margin:0.5rem 0.5rem 0 0">“I am working on non-obvious problems and their solutions“</a>
+                                <div> <a href="https://twitter.com/DDoianov?ref_src=twsrc%5Etfw" class="btn btn-primary mt-2">Follow</a></div>
+                              
+								<!--<div class="row text-center m-t-20">
+                                    <div class="col-lg-4 col-md-4 m-t-20">
+                                        <h3 class="m-b-0 font-light">1099</h3><small>Articles</small></div>
+                                    <div class="col-lg-4 col-md-4 m-t-20">
+                                        <h3 class="m-b-0 font-light">2349</h3><small>Followers</small></div>
+                                    <div class="col-lg-4 col-md-4 m-t-20">
+                                        <h3 class="m-b-0 font-light">6035</h3><small>Following</small></div>
+								</div> -->
+						</div>
+                </div>
+			</div>
+		</div>
+	</div>
 	
-<article class="post" style="margin-top:50px">
-<div class="w-50 p-10 mx-auto">
-
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</div>
-</article>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				
+				{% include disqus.html %}
+				
+			</div>
+		</div>
+	</div>
