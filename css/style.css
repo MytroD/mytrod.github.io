@@ -1415,14 +1415,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
-#page .page div {
-  position: relative;
-  text-align: -webkit-center;
-  top: 0;
-  bottom: 0;
-}
-
-
 /* Back to top button */
 
 .back-to-top {
