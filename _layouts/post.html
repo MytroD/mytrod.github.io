@@ -31,19 +31,17 @@ layout: default
 <section id="article">
 	<div class="container">    
 		<div class="row">
-			<div class="article-col col-8">
-				<div class="w-50 p-10 mx-auto">
-					<h1>{{ page.title }}</h1>
-					
-						{{ content }}
-					
-				</div>
+			<div class="article-col col-9">
+				<h1>{{ page.title }}</h1>
+				
+				{{ content }}
+							
 				<div class="date">
 					Written on {{ page.date | date: "%B %e, %Y" }}
 				</div>
 			</div>
 
-			<div class="article-col-sidebar col-4"><!-- Blog sidebar area -->
+			<div class="article-col-sidebar col-3"><!-- Blog sidebar area -->
 			    <div class="card">
                     <img class="card-img-top" src="{{ BASE_PATH }}/img/bg/profile-bg.jpg" alt="Card image cap">
                         <div class="card-block little-profile text-center">
