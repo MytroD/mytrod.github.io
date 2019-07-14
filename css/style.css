@@ -529,7 +529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   background: url("../img/bg/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts {
   background: url("../img/bg/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
@@ -679,7 +679,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #blog {
   background: url("../img/bg/blog-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
@@ -919,7 +919,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #articles {
   background: url("../img/bg/articles-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
@@ -1027,7 +1027,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #article {
   background: url("../img/bg/article-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
@@ -1123,7 +1123,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact {
   background: url("../img/bg/contact-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
@@ -1238,7 +1238,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer {
   background: #000;
-  padding: 0 0 30px 0;
+  padding: 3rem 1rem 3rem 1rem;
   color: #eee;
   font-size: 14px;
   position: fixed;
@@ -1400,7 +1400,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #page {
   background: url("../img/bg/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 3rem 1rem 3rem 1rem;
   position: relative;
 }
 
