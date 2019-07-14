@@ -29,26 +29,31 @@ title: Articles by
 	</header><!-- #header -->
 
 <section id="articles" class="articles">
-	
-		<header class="section-header">
-			<h3><a>Articles</a></h3>
-			<p>Read me in twitter. Press the bell to receive notification and you will not miss my posts.</p>
-		</header>
+	<div class="container">
+		<div class="row">
+			<header class="section-header">
+				<h3><a>Articles</a></h3>
+				<p>Read me in twitter. Press the bell to receive notification and you will not miss my posts.</p>
+			</header>
+		</div>
+	</div>
 		
 	<div class="container">    	
 		<div class="row">
-			<div class="col-9 float-right"> 
-				<div class="articles">
+			<div class="col-9 float-left"> 
+		
 				{% for post in site.posts %}
-					<div class="articles-col">
+				
+				<div class="articles-col">
 						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 							<img src="{{ site.baseurl }}/img/images-posts/{{ post.title }}.png">			
 						<p>{{ post.excerpt }}</p>
 						<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-common float-right">Read More</a>
-					</div>
-				{% endfor %}
 				</div>
-			</div>	   
+				
+				{% endfor %}
+			</div>
+			   
 		
 <!-- Blog sidebar area -->
 			<div class="col-3 float-right">    
