@@ -2,11 +2,11 @@
 	<nav class="fixed-bottom"> 
 		<div class="container-fluid">
 			<div class="row">	
-				<div class="col-6 col-xs-12 text-left">
+				<div class="col-6 col-xs-12 col-md-12 text-left">
 					<p>&copy; 2017 <script>new Date().getFullYear()>2017&&document.write("- "+new Date().getFullYear());</script><a href="#"> MytroArts</a></p>
 				</div>
 				
-				<div class="col-6 col-xs-12 text-right">
+				<div class="col-6 col-xs-12 col-md-12 text-right">
 				<p>	{% if site.footer-links.dribbble %}<a href="https://dribbble.com/{{ site.footer-links.dribbble }}"><i class="fab fa-dribbble-square fa-lg"></i></i></a>{% endif %}
 					{% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="fas fa-envelope fa-lg pl-1"></i></a>{% endif %}
 					{% if site.footer-links.facebook %}<a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i class="fab fa-facebook-f fa-lg pl-1"></i></a>{% endif %}
