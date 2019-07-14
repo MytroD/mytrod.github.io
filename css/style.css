@@ -1402,6 +1402,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
+  z-index: 10;
+  height: 10em;
+  display: flex;
+  text-align: -webkit-center;
 }
 
 #page::before {
@@ -1417,10 +1421,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #page .container {
   position: relative;
-  z-index: 10;
-  height: 10em;
-  display: flex;
-  text-align: -webkit-center;
+
 }
 
 
