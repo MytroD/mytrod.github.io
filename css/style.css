@@ -1121,7 +1121,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section */
 
 #contact {
-  padding: 60px 0;
+  background: url("../img/bg/contact-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 2rem 1rem 2rem 1rem;
+  position: relative;
 }
 
 #contact .contact-info {
