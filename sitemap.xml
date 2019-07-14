@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://doianov.me/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://doianov.me/about/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doianov.me/facts/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doianov.me/blog/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doianov.me/articles/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doianov.me/contacts/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doianov.me/Starter/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doianov.me/Article/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doianov.me/Hello-my-friend/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doianov.me/World-of-Warcraft/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doianov.me/Hello-World/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doianov.me/Computer-science/</loc>
+  <lastmod>2019-07-14T18:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
