@@ -1415,7 +1415,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
-#page .div {
+#page .div.page {
   position: relative;
   text-align: -webkit-center;
 }
