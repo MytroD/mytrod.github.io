@@ -1415,9 +1415,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
-#article .container {
+#page .container {
   position: relative;
   z-index: 10;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
 
