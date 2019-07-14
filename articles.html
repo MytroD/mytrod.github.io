@@ -29,19 +29,20 @@ title: Articles by
 	</header><!-- #header -->
 
 
+<section id="articles" class="articles">
+	<div class="container"> 
+	
 			<header class="section-header">
 				<h3><a>Articles</a></h3>
 				<p>Read me in twitter. Press the bell to receive notification and you will not miss my posts.</p>
 			</header>
-
-<section id="articles" class="articles">
-	<div class="container">    	
+   	
 		<div class="row">
 			<div class="col-9 float-left"> 
 		
 				{% for post in site.posts %}
 				
-				<div class="articles-col">
+				<div class="articles-col col-9">
 						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 							<img src="{{ site.baseurl }}/img/images-posts/{{ post.title }}.png">			
 						<p>{{ post.excerpt }}</p>
