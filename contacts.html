@@ -35,8 +35,7 @@ title: Get in touch
 			</header>
 			
 			<div class="row">
-				<div class="col-lg-6 mb-4 wow fadeInLeft">
-					<div class="container">
+				<div class="col-12 col-md-6 mb-4 wow fadeInLeft">
 					<h3>Contact Details</h3>
 					<p><span>Location:&#8195;</span>Odesa, Ukraine, 65014, Greck street</p>
 					<p><span>Socials:&#8195;</span>
@@ -46,13 +45,11 @@ title: Get in touch
 					<a>Email</a>:
 					<a href="mailto:d@doianov.me">d@doianov.me </a>
 					</p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21977.501178212577!2d30.728813754200896!3d46.48459667231233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63198508ebbb9%3A0xe4aaf554bd54047e!2z0LLRg9C70LjRhtGPINCT0YDQtdGG0YzQutCwLCDQntC00LXRgdCwLCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1suk!2sua!4v1548837224495" width="500" height="385" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21977.501178212577!2d30.728813754200896!3d46.48459667231233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63198508ebbb9%3A0xe4aaf554bd54047e!2z0LLRg9C70LjRhtGPINCT0YDQtdGG0YzQutCwLCDQntC00LXRgdCwLCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1suk!2sua!4v1548837224495" width="20rem" height="385" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				
-				<div class="col-lg-6 mb-4 wow fadeInRight">
+				<div class="col-md-6 col-12 mb-4 wow fadeInRight">
 				<!-- powered by https://formspree.io/ -->
-				<div class="container">
 					<h3>Get in touch</h3>
 						<form name="SendMessage" id="fs-frm" data-toggle="validator" accept-charset="utf-8" action="https://formspree.io/d@doianov.me" method="post">
 							<div class="control-group form-group">
@@ -70,27 +67,25 @@ title: Get in touch
 								</div>
 							</div>
 							<div class="control-group form-group">
-								<div class="controls">
-									<i class="contact-icon fas fa-envelope pr-1"></i><label>Email Address</label>
-									<input type="email" class="form-control" name="email" placeholder="email@yourdomain.ltd" required data-error="Please enter your email">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
+							<div class="controls">
+							<i class="contact-icon fas fa-envelope pr-1"></i><label>Email Address</label>
+							<input type="email" class="form-control" name="email" placeholder="email@yourdomain.ltd" required data-error="Please enter your email">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
 			                
-							<div class="control-group form-group">
-								<div class="controls">
-									<i class="far fa-comment-alt pr-1"></i><label>Message:</label>
-									<textarea rows="10" cols="100" class="form-control" name="message" id="message" placeholder="Put your message here" required data-error="Please enter your message" maxlength="999" style="resize:none"></textarea>
-									<input type="hidden" name="_subject" value="Message Form doianov.me">
-								</div>
-							</div>
-								<button type="submit" class="btn btn-primary" value="Send" id="sendMessageButton">Send Message</button>
-								<!-- For success/fail messages -->							
-							<div id="success"></div>
-						</form>
-				</div>
-				</div>
+					<div class="control-group form-group">
+						<div class="controls">
+							<i class="far fa-comment-alt pr-1"></i><label>Message:</label>
+							<textarea rows="10" cols="100" class="form-control" name="message" id="message" placeholder="Put your message here" required data-error="Please enter your message" maxlength="999" style="resize:none"></textarea>
+							<input type="hidden" name="_subject" value="Message Form doianov.me">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary" value="Send" id="sendMessageButton">Send Message</button>
+					<!-- For success/fail messages -->							
+					<div id="success"></div>
+				</form>
 			</div>
 		</div>
-	</section>
-	</main>	
+	</div>
+</section>
