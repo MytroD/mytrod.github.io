@@ -1556,4 +1556,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+  #intro .carousel-content {
+  text-align: center;
+  padding-top: 2rem;
+}
 }
