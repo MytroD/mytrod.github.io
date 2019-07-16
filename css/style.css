@@ -1538,13 +1538,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #intro .carousel-content {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
   }
 }
 
 @media (max-width: 1199.98px) {
  #header #logo {
     padding-left: 60px;
+	padding-top: 10px;
   }
 
   #intro p {
@@ -1558,6 +1559,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #nav-menu-container {
     padding-right: 60px;
+	padding-top: 10px;
   }
 }
 
