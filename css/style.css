@@ -40,7 +40,7 @@ h6 {
 /* Header */
 
 #header {
-  padding: 2px 0;
+  padding: 0;
   height: 48px;
   position: fixed;
   left: 0;
@@ -57,7 +57,7 @@ h6 {
 #header #logo h1 {
   font-size: 17px;
   margin: 0;
-  padding: 0;
+  padding-top: 1rem;
   line-height: 1;
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
@@ -66,13 +66,13 @@ h6 {
 
 #header #logo h1:hover {
   color: #fff;
-  padding-left: 10px;
+  padding-left: 1rem;
   border-left: 4px solid #18d26e;
 }
 
 #header #logo h1 a{
   color: #fff;
-  padding-left: 10px;
+  padding-left: 1rem;
   border-left: 4px solid #18d26e;
   font-size: 17px;
   text-transform: uppercase;
