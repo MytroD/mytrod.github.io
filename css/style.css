@@ -1526,8 +1526,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
  #header #logo {
-    padding-left: 60px;
-	padding-top: 10px;
+    padding-left: 0.3rem;
+	padding-top: 0.3rem;
   }
 
   #intro p {
@@ -1540,8 +1540,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #nav-menu-container {
-    padding-right: 60px;
-	padding-top: 10px;
+    padding-right: 0.3rem;
+	padding-top: 0.3rem;
   }
 }
 
