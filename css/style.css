@@ -47,7 +47,7 @@ h6 {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 996;
   background: rgba(0, 0, 0, 0.9);
 }
 
@@ -63,7 +63,7 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 17px;
+  font-size: 0.7rem;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -1567,10 +1567,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #header #logo h1 {
     font-size: 17px;
-  }
-
-  #header #logo img {
-    max-height: 40px;
   }
 
   #intro h2 {
