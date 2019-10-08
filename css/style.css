@@ -63,7 +63,7 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -1566,7 +1566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 17px;
   }
   #header #logo h1 {
-    font-size: 17px;
+    font-size: 1rem;
   }
 
   #intro h2 {
