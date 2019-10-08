@@ -1508,17 +1508,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-right: 1px solid #ddd;
   }
   .back-to-top {
-    bottom: 15px;
+    bottom: 0.7rem;
   }
   #header #logo p {
-    font-size: 17px;
+    font-size: 0.8rem;
   }
   #header #logo h1 {
     font-size: 1rem;
   }
 
   #intro h2 {
-    font-size: 28px;
+    font-size: 1rem;
   }
 
   #nav-menu-container {
