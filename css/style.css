@@ -40,7 +40,7 @@ h6 {
 /* Header */
 
 #header {
-  padding: 30px 0;
+  padding: 1rem 0;
   height: 1rem;
   position: fixed;
   left: 0;
@@ -63,11 +63,11 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 34px;
+  font-size: 17px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
 }
