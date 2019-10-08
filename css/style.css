@@ -1479,14 +1479,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Responsive Media Queries */
 
 @media (max-width: 575.98px) {
-
+ #header #logo {
+    padding-left: 0.3rem;
+	padding-top: 0.3rem;
 }
 
 @media (max-width: 767.98px) {
-
+ #header #logo {
+    padding-left: 0.3rem;
+	padding-top: 0.3rem;
 }
 
 @media (max-width: 991.98px) {
+  #header #logo {
+    padding-left: 0.3rem;
+	padding-top: 0.3rem;
+  }
+ 
+ 
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
