@@ -64,11 +64,11 @@ h6 {
   letter-spacing: 3px;
 }
 
-#header #logo h1:hover {
+/*#header #logo h1:hover {
   color: #fff;
   padding-left: 1rem;
   border-left: 4px solid #18d26e;
-}
+}*/
 
 #header #logo h1 a{
   color: #fff;
