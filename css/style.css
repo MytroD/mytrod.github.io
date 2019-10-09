@@ -1490,24 +1490,47 @@ body.mobile-nav-active #mobile-nav-toggle {
  #header #logo {
     padding-left: 0.4rem;
 	padding-top: 0.4rem;
-}
+  }
+  
+  #header #logo h1 {
+    font-size: 1.3rem;
+  }
+  
+  #header #headernav a {
+	font-size: 1.2rem;  
+  }
 
 @media (max-width: 767.98px) {
  #header #logo {
     padding-left: 0.4rem;
 	padding-top: 0.4rem;
-}
+  }
+  
+  #header #logo h1 {
+    font-size: 1.3rem;
+  }
+  
+  #header #headernav a {
+	font-size: 1.2rem;  
+  }
 
 
 /*мой моник**/
 
 @media (max-width: 991.98px) {
-  #header #logo {
+ #header #logo {
     padding-left: 0.4rem;
 	padding-top: 0.4rem;
   }
- 
- 
+  
+  #header #logo h1 {
+    font-size: 1.3rem;
+  }
+  
+  #header #headernav a {
+	font-size: 1.2rem;  
+  }
+  
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1521,13 +1544,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   .back-to-top {
     bottom: 0.7rem;
   }
-  #header #logo p {
-    font-size: 0.7rem;
-  }
-  #header #logo h1 {
-    font-size: 0.7rem;
-  }
 
+ 
   #intro h2 {
     font-size: 0.7rem;
   }
@@ -1549,6 +1567,14 @@ body.mobile-nav-active #mobile-nav-toggle {
  #header #logo {
     padding-left: 0.4rem;
 	padding-top: 0.4rem;
+  }
+  
+  #header #logo h1 {
+    font-size: 1.3rem;
+  }
+  
+  #header #headernav a {
+	font-size: 1.2rem;  
   }
 
   #intro p {
