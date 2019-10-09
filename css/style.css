@@ -1493,11 +1493,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   
   #header #logo h1 {
-    font-size: 1.3rem;
+    font-size: 0.7rem;
   }
   
   #header #headernav a {
-	font-size: 1.2rem;  
+	font-size: 0.5rem;  
   }
 
 @media (max-width: 767.98px) {
@@ -1507,11 +1507,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   
   #header #logo h1 {
-    font-size: 1.3rem;
+    font-size: 9.9rem;
   }
   
   #header #headernav a {
-	font-size: 1.2rem;  
+	font-size: 0.7rem;  
   }
 
 
@@ -1524,11 +1524,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   
   #header #logo h1 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
   #header #headernav a {
-	font-size: 1.2rem;  
+	font-size: 0.9rem;  
   }
   
   #contact .contact-address,
