@@ -139,7 +139,7 @@ h6 {
 
 #intro h2 {
   color: #fff;
-  margin-bottom: 9px;
+  margin-bottom: 1rem;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -544,7 +544,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 #about .about-col .img {
@@ -640,7 +640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 #facts .counters span {
@@ -694,7 +694,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   width: 600px;
   max-width: 600px;
   text-align: float-right;
@@ -759,7 +759,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1rem;
   line-height: 24px;
   color: #333;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   padding: 0 20px 20px 20px;
 }
 
@@ -777,13 +777,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*little-profile*/
 .little-profile .pro-img {
   margin-top: -80px;
-  margin-bottom: 20px; }
+  margin-bottom: 1rem;
+}
+
   .little-profile .pro-img img {
     width: 128px;
     height: 128px;
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border-radius: 100%; }
+    border-radius: 100%;]
+}
 
 .contact-box {
   position: relative; }
@@ -933,7 +936,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #articles .articles-col {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 37px;
+  margin-bottom: 1rem;
 }
 
 #articles .articles-col .img {
@@ -1008,7 +1011,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1rem;
   line-height: 24px;
   color: #333;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   padding: 0 20px 20px 20px;
 }
 
@@ -1042,7 +1045,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 #article .article-col .img {
@@ -1104,7 +1107,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1rem;
   line-height: 24px;
   color: #333;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   padding: 0 20px 20px 20px;
 }
 
@@ -1130,26 +1133,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info {
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 #contact .contact-info i {
   font-size: 1rem;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   color: #18d26e;
 }
 
 #contact .contact-info address,
 #contact .contact-info p {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   color: #000;
 }
 
 #contact .contact-info h3 {
   font-size: 1rem;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #999;
@@ -1166,7 +1169,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-address,
 #contact .contact-phone,
 #contact .contact-email {
-  margin-bottom: 20px;
+ margin-bottom: 1rem;
 }
 
 #contact .form #sendmessage {
@@ -1176,7 +1179,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding: 15px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 #contact .form #errormessage {
@@ -1186,7 +1189,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding: 15px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 #contact .form #sendmessage.show,
@@ -1245,7 +1248,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1262,7 +1265,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-info p {
   font-size: 1rem;
   line-height: 24px;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   font-family: "Philosopher", sans-serif;
   color: #eee;
 }
@@ -1316,7 +1319,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1348,7 +1351,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1356,7 +1359,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {
