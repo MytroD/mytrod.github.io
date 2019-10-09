@@ -1546,9 +1546,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 1.1rem;
   }
   
-  #header #headernav a {
-	font-size: 0.9rem;  
+  #nav-menu-container {
+    padding-right: 0.4rem;
+	padding-top: 0.4rem;
   }
+  
+  #nav-menu-container a {
+	font-size: 0.9rem; 
+  }
+
   
   #contact .contact-address,
   #contact .contact-phone,
@@ -1591,9 +1597,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo h1 {
     font-size: 1.3rem;
   }
+
+  #nav-menu-container {
+    padding-right: 0.4rem;
+	padding-top: 0.4rem;
+  }
   
-  #header #headernav a {
-	font-size: 1.2rem;  
+  #nav-menu-container a {
+	font-size: 1.2rem; 
   }
 
   #intro p {
