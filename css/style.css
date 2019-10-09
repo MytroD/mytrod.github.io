@@ -1522,25 +1522,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   #nav-menu-container {
     padding-right: 0.4rem;
 	padding-top: 0.4rem;
+	display: none;
   }
   
   #nav-menu-container li {
 	font-size: 1rem; 
   }
 
-  #intro p {
-    width: 60%;
+  #mobile-nav-toggle {
+    display: inline;
+  }
+  
+  #intro h2 {
+    font-size: 0.7rem;
   }
 
-  #intro .carousel-control-prev,
-  #intro .carousel-control-next {
-    width: 5%;
+  .back-to-top {
+    bottom: 0.7rem;
   }
 
-  #nav-menu-container {
-    padding-right: 0.4rem;
-	padding-top: 0.4rem;
-  }
+
 }
 
 @media (max-width: 991.98px) {
