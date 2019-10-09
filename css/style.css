@@ -1118,6 +1118,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#contact::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
