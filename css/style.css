@@ -1506,96 +1506,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Responsive Media Queries */
 
 @media (max-width: 575.98px) {
+
  #header #logo {
     padding-left: 0.4rem;
 	padding-top: 0.4rem;
   }
   
   #header #logo h1 {
-    font-size: 0.7rem;
-  }
-  
-  #header #headernav a {
-	font-size: 0.5rem;  
-  }
-
-@media (max-width: 767.98px) {
- #header #logo {
-    padding-left: 0.4rem;
-	padding-top: 0.4rem;
-  }
-  
-  #header #logo h1 {
-    font-size: 0.9rem;
-  }
-  
-  #header #headernav a {
-	font-size: 0.7rem;  
-  }
-
-
-/*мой моник**/
-
-@media (max-width: 991.98px) {
- #header #logo {
-    padding-left: 0.4rem;
-	padding-top: 0.4rem;
-  }
-  
-  #header #logo h1 {
-    font-size: 1.1rem;
-  }
-  
-  #nav-menu-container {
-    padding-right: 0.4rem;
-	padding-top: 0.4rem;
-  }
-  
-  #nav-menu-container a {
-	font-size: 0.9rem; 
-  }
-
-  
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-    padding: 2px 0;
-  }
-
-  #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-  .back-to-top {
-    bottom: 0.7rem;
-  }
-
- 
-  #intro h2 {
-    font-size: 0.7rem;
-  }
-
-  #nav-menu-container {
-    display: none;
-  }
-
-  #mobile-nav-toggle {
-    display: inline;
-  }
-  #intro .carousel-content {
-  text-align: center;
-  padding-top: 1rem;
-  }
-}
-
-@media (max-width: 1199.98px) {
- #header #logo {
-    padding-left: 0.4rem;
-	padding-top: 0.4rem;
-  }
-  
-  #header #logo h1 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   #nav-menu-container {
@@ -1603,8 +1521,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding-top: 0.4rem;
   }
   
-  #nav-menu-container a {
-	font-size: 1.2rem; 
+  #nav-menu-container li {
+	font-size: 1rem; 
   }
 
   #intro p {
@@ -1621,4 +1539,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding-top: 0.4rem;
   }
 }
+
+@media (max-width: 767.98px) {
+
+
+@media (max-width: 991.98px) {
+
+
+@media (max-width: 1199.98px) {
+
 
