@@ -192,7 +192,7 @@ h6 {
 }
 
 #intro .carousel-indicators ol {
- margin-bottom: 2rem;
+ margin-bottom: 2rem!important; }
 }
 
 #intro .btn-get-started {
