@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   background: url("../img/bg/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 2rem 1rem 2rem 1rem;
+  /*padding: 2rem 1rem 2rem 1rem;*/
   position: relative;
 }
 
