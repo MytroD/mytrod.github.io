@@ -60,12 +60,17 @@ h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
+#header #logo h1 a {
   color: #fff;
+  border-left: 4px solid #18d26e;
+}
+
+#header #logo h1 a:hover {
+  color: #ccc;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
 }
+
 
 #header #logo img {
   padding: 0;
