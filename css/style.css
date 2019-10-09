@@ -191,6 +191,10 @@ h6 {
   cursor: pointer;
 }
 
+#intro .carousel-indicators ol {
+ margin-bottom: 2rem;
+}
+
 #intro .btn-get-started {
   font-family: "Philosopher", sans-serif;
   font-weight: 500;
