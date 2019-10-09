@@ -1131,7 +1131,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(255, 255, 255, 0.92);
   z-index: 9;
 }
-
+#contact .container {
+  position: relative;
+  z-index: 10;
+}
+  
 #contact .contact-info {
   margin-bottom: 1rem;
   text-align: center;
