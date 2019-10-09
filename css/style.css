@@ -34,7 +34,7 @@ h6 {
 /* Header */
 
 #header {
-  padding: 0.3rem 0;
+  padding: 0.4rem 0;
   height: 2.0rem;
   position: fixed;
   left: 0;
@@ -292,7 +292,7 @@ h6 {
 /* Nav Menu Styling */
 
 .nav-menu a {
-  padding: 0 0.2rem 0.3rem 0.2rem;
+  padding: 0 0.2rem 0.4rem 0.2rem;
   text-decoration: none;
   display: inline-block;
   color: #fff;
@@ -348,7 +348,7 @@ h6 {
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+  margin: 0.4rem 0.4rem 0.4rem 0.4rem;
   border: 0;
   background: none;
   font-size: 1rem;
@@ -1222,7 +1222,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   height: 2rem;
   background: #000;
-  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
   color: #eee;
   font-size: 1rem;
   font-family: "Philosopher", sans-serif;
@@ -1488,20 +1488,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 575.98px) {
  #header #logo {
-    padding-left: 0.3rem;
-	padding-top: 0.3rem;
+    padding-left: 0.4rem;
+	padding-top: 0.4rem;
 }
 
 @media (max-width: 767.98px) {
  #header #logo {
-    padding-left: 0.3rem;
-	padding-top: 0.3rem;
+    padding-left: 0.4rem;
+	padding-top: 0.4rem;
 }
 
 @media (max-width: 991.98px) {
   #header #logo {
-    padding-left: 0.3rem;
-	padding-top: 0.3rem;
+    padding-left: 0.4rem;
+	padding-top: 0.4rem;
   }
  
  
@@ -1544,8 +1544,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
  #header #logo {
-    padding-left: 0.3rem;
-	padding-top: 0.3rem;
+    padding-left: 0.4rem;
+	padding-top: 0.4rem;
   }
 
   #intro p {
@@ -1558,8 +1558,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #nav-menu-container {
-    padding-right: 0.3rem;
-	padding-top: 0.3rem;
+    padding-right: 0.4rem;
+	padding-top: 0.4rem;
   }
 }
 
