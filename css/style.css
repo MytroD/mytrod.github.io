@@ -1511,8 +1511,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767.98px) {
  #header #logo {
-    padding-left: 0.4rem;
-	padding-top: 0.4rem;
+    padding-left: 0.1rem;
+	padding-top: 0.1rem;
   }
   
   #header #logo h1 {
@@ -1520,8 +1520,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #nav-menu-container {
-    padding-right: 0.4rem;
-	padding-top: 0.4rem;
+    padding-right: 0.1rem;
+	padding-top: 0.1rem;
 	display: none;
   }
   
