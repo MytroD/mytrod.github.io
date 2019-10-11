@@ -1264,6 +1264,7 @@ color: #fff;
 display: flex;
 padding-right: 0.3rem;
 background: #000;
+text-align: right;
 }
 
 #footer .social-links li {
@@ -1272,7 +1273,6 @@ display: flex;
 
 #footer .social-links a {
   font-size: 1rem;
-  display: flex;
   margin-right: 0.5rem;
   text-align: center;
   transition: 0.4s;
