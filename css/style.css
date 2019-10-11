@@ -1246,7 +1246,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #eee;
   font-size: 1rem;
   font-family: "Philosopher", sans-serif;
-  display: flex;
+  display: block;
 }
 
 #footer .copyright {
