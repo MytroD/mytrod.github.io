@@ -1261,18 +1261,18 @@ color: #fff;
 }
 
 #footer .social-links ul {
-display: inline;
+display: flex;
 padding-right: 0.3rem;
 background: #000;
 }
 
 #footer .social-links li {
-display: inline;
+display: flex;
 }
 
 #footer .social-links a {
   font-size: 1rem;
-  display: inline;
+  display: flex;
   margin-right: 0.5rem;
   text-align: center;
   transition: 0.4s;
@@ -1424,25 +1424,6 @@ display: inline;
   .back-to-top {
     bottom: 0.7rem;
   }
-
-#footer .copyright {
-  display: flex;
-  flex-direction: column;
-}
-
-#footer .social-links ul {
-  display: flex;
-  flex-direction: column;}
-
-#footer .social-links li {
-  display: flex;
-  flex-direction: column;
-}
-
-#footer .social-links a {
-  display: flex;
-  flex-direction: column;
-}
 
 }
 
