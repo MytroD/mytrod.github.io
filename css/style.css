@@ -1248,7 +1248,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Philosopher", sans-serif;
 }
 
-#footer .social-links a {
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .social-links li {
   font-size: 1rem;
   display: inline-block;
   background: #333;
@@ -1263,15 +1268,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+#footer .social-links li:hover {
   background: #18d26e;
   color: #fff;
 }
 
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
 
 
 #page {
