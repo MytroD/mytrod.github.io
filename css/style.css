@@ -1254,6 +1254,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: left;
   padding-left: 0.3rem;
   font-size: 1rem;
+  background: #000;
 }
 
 #footer .copyright p:hover {
@@ -1263,6 +1264,7 @@ color: #fff;
 #footer .social-links ul {
 display: inline;
 padding-right: 0.3rem;
+background: #000;
 }
 
 #footer .social-links li {
