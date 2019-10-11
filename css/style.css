@@ -1253,6 +1253,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 30px;
 }
 
+#footer .social-links ul {
+display: inline;
+}
+
 #footer .social-links li {
   font-size: 1rem;
   display: inline-block;
