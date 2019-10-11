@@ -1247,7 +1247,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1rem;
   font-family: "Philosopher", sans-serif;
   display: flex;
-  flex-direction: row;
 }
 
 #footer .copyright {
