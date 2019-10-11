@@ -1246,7 +1246,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #eee;
   font-size: 1rem;
   font-family: "Philosopher", sans-serif;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 #footer .copyright {
@@ -1424,19 +1425,22 @@ display: inline;
   }
 
 #footer .copyright {
-display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 #footer .social-links ul {
-display: none;
-}
+  display: flex;
+  flex-direction: column;}
 
 #footer .social-links li {
-display: none;
+  display: flex;
+  flex-direction: column;
 }
 
 #footer .social-links a {
-display: none;
+  display: flex;
+  flex-direction: column;
 }
 
 }
