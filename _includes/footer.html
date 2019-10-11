@@ -2,11 +2,11 @@
 	<nav class="navbar-fixed-bottom"> 
 		<div class="container-fluid">
 			<div class="row">	
-				<div class="social-links text-left">
+				<div class="copyright text-left">
 					<p><a href="#"> MytroArts</a> - &copy; 2017 <script>new Date().getFullYear()>2017&&document.write("- "+new Date().getFullYear());</script></p>
 				</div>
 				
-				<div id="nav-menu-container">
+				<div id="nav-menu-container" class="social-links">
 					<ul class="nav-menu col-xs-6 col-md-6 text-right">
 					<li>{% if site.footer-links.dribbble %}<a href="https://dribbble.com/{{ site.footer-links.dribbble }}"><i class="fab fa-dribbble-square fa-lg"></i></i></a>{% endif %}</li>
 					<li>{% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="fas fa-envelope fa-lg pl-1"></i></a>{% endif %}</li>
