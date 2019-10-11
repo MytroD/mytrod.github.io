@@ -1255,8 +1255,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .copyright p:hover {
-  background: #18d26e;
-  color: #fff;
+color: #fff;
 }
 
 #footer .social-links ul {
@@ -1276,7 +1275,6 @@ display: inline;
 }
 
 #footer .social-links i:hover {
-  background: #18d26e;
   color: #fff;
 }
 
