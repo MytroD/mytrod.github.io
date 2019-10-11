@@ -1249,9 +1249,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .copyright {
-  text-align: center;
-  padding-top: 30px;
+  text-align: left;
+  padding-left: 0.1rem;
 }
+#footer .copyright p:hover {
+  background: #18d26e;
+  color: #fff;
+}
+
+
 
 #footer .social-links ul {
 display: inline;
