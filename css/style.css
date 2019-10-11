@@ -1274,7 +1274,7 @@ display: inline;
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+#footer .social-links i:hover {
   background: #18d26e;
   color: #fff;
 }
