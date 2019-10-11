@@ -1260,17 +1260,17 @@ color: #fff;
 }
 
 #footer .social-links ul {
-display: inline-block;
+display: inline;
 padding-right: 0.3rem;
 }
 
 #footer .social-links li {
-display: inline-block;
+display: inline;
 }
 
 #footer .social-links a {
   font-size: 1rem;
-  display: inline-block;
+  display: inline;
   margin-right: 0.5rem;
   text-align: center;
   transition: 0.4s;
@@ -1423,6 +1423,21 @@ display: inline-block;
     bottom: 0.7rem;
   }
 
+#footer .copyright {
+display: block;
+}
+
+#footer .social-links ul {
+display: none;
+}
+
+#footer .social-links li {
+display: none;
+}
+
+#footer .social-links a {
+display: none;
+}
 
 }
 
