@@ -35,7 +35,7 @@ h6 {
 
 #header {
   padding: 0.4rem 0;
-  height: 2.0rem;
+  height: 3vh;
   position: fixed;
   left: 0;
   top: 0;
@@ -91,7 +91,7 @@ h6 {
 
 #intro .carousel-item {
   width: 100%;
-  height: 91vh;
+  height: 94vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -439,7 +439,7 @@ h6 {
 
 #mobile-body-overly {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 997;
   top: 0;
   left: 0;
@@ -1240,7 +1240,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 2rem;
+  height: 3vh;
   background: #000;
   padding: 0.4rem 0 0.4rem 0.4rem;
   color: #eee;
