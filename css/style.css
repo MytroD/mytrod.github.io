@@ -1254,6 +1254,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 0.3rem;
   background: #000;
   display: inline-block;
+  min-width:340px;
 }
 
 #footer .copyright p:hover {
